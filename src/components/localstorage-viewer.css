@@ -1,0 +1,22 @@
+.storage-table {
+  display: table;
+}
+
+.storage-item-row {
+  display: table-row;
+}
+
+.storage-item-row:nth-child(2n) {
+  background-color: rgba(210, 210, 210, 0.5);
+}
+
+.storage-item {
+  display: table-cell;
+  border: 1px solid rgb(100, 100, 100);
+  padding: 5px;
+}
+
+.storage-item .value{
+  word-wrap: break-word;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
